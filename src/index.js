@@ -1,11 +1,10 @@
 
 function decode(expr) {
     // write your solution here
-   let result = ""
-   let tmp = expr.trim()
+   let result = "" 
   let stk = ""
-  for(let i = 0; i < tmp.length; i++){
-    let s = tmp[i]
+  for(let i = 0; i < expr.length; i++){
+    let s = expr[i]
     stk += s
     switch(stk){   
       case "**********":
